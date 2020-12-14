@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">PoolBisMapping</string>
+
+    <string-array name="kecamatan">
+        <item>Cilandak</item>
+        <item>Jagakarsa</item>
+        <item>KebBaru</item>
+        <item>KebLama</item>
+        <item>Mampang</item>
+        <item>Pancoran</item>
+        <item>Pasar Minggu</item>
+        <item>Pesanggrahan</item>
+        <item>Setia Budi</item>
+        <item>Tebet</item>
+    </string-array>
+
+    <string name="google_map_api_key" translatable="false">AIzaSyAbkGc6N2DQLe3NoGa5CKX_xBO6cE_ApYA</string>
+
+
+    <string name="pool_header">Peta Lokasi Pool Bis Antar Kota di Jakarta Selatan</string>
+    <string name="pool_header2">Di spesifikasikan berdasarkan kecamatan yang terdapat di Jakarta Selatan</string>
+
+    <string name="tujuan">
+        Jakarta - Solo - Surabaya \n
+        Jakarta - Jogja - Semarang \n
+        Jakarta - Bandung \n
+        Jakarta - Cirebon - Surabaya \n
+        Jakarta - Solo - Malang \n
+
+    </string>
+
+    <string name="terminal_header">
+        Terminal Bus Jakarta Selatan
+    </string>
+
+    <string name="terminal_header2">
+        Menampilkan daftar dan informasi mengenai terminal bus trayek dalam dan luar kota yang terdapat di wilayah Kotamadya Jakarta Selatan.
+    </string>
+
+    <string name="jalan">
+        Jl. TB Simatupang No.40, Jakarta Selatan
+    </string>
+
+    <string name="deskripsi">
+
+        Terminal Blok M adalah terminal bus kota di kecamatan Kebayoran Baru, Jakarta Selatan.
+        Terminal ini memiliki enam jalur. Terminal ini juga memuat halte transjakarta koridor 1.
+
+    </string>
+
+    <string name="nav_draw_open">Open Navigation Drawer</string>
+    <string name="nav_draw_close">Close Navigation Drawer</string>
+
+    <string-array name="lokasiterdekat">
+        <item>Pool bus terdekat</item>
+        <item>Terminal bus terdekat</item>
+    </string-array>
+
+</resources>

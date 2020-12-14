@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add.AddActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:elevation="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pilih Kecamatan"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_cilandak"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Cilandak"
+                />
+            <Button
+                android:id="@+id/btn_jagakarsa"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Jagakarsa"
+                />
+
+            <Button
+                android:id="@+id/btn_kebbaru"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Kebayoran Baru"
+                />
+            <Button
+                android:id="@+id/btn_keblama"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Kebayoran Lama"
+                />
+            <Button
+                android:id="@+id/btn_mampang"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Mampang"
+                />
+            <Button
+                android:id="@+id/btn_pancoran"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Pancoran"
+                />
+            <Button
+                android:id="@+id/btn_pasarminggu"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Pasar Minggu"
+                />
+            <Button
+                android:id="@+id/btn_pesanggrahan"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Pesangrahan"
+                />
+            <Button
+                android:id="@+id/btn_setiabudi"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Setia Budi"
+                />
+            <Button
+                android:id="@+id/btn_tebet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:text="Tebet"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

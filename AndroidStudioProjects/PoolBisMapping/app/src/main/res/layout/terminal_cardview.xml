@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/holo_blue_light">
+
+                    <ImageView
+                        android:id="@+id/img_card_terminal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:background="@color/biruputih"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_card_nama_terminal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Terminal Blok M"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="7dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_card_alamat_terminal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/jalan"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_card_kecamatan_terminal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kebayoran Baru"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="10dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="5dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/txt_card_terminal_akap"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="AK-AP"
+                                android:background="@drawable/bg_text_merah"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:textSize="10sp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="@android:color/white"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_card_terminal_dalkot"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Dalam Kota"
+                                android:background="@drawable/bg_text_hijau"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:textSize="10sp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="@android:color/white"
+                                />
+
+                            <TextView
+                                android:id="@+id/txt_card_terminal_jabodetabek"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jabodetabek"
+                                android:background="@drawable/bg_text_biru"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:textSize="10sp"
+                                android:layout_marginStart="10dp"
+                                android:textColor="@android:color/white"
+                                />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_card_deskripsi_terminal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/deskripsi"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:textAlignment="textStart"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_nama_terminal_banner"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_text"
+                android:text="Terminal Manggarai Jakarta"
+                android:ellipsize="end"
+                android:paddingEnd="5dp"
+                android:maxLines="1"
+                android:textSize="11dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="20dp"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTerminalActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add_terminal"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        app:title="Add Terminal"
+        app:titleTextColor="@android:color/white"
+        app:menu="@menu/toolbar_add_pool"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="20dp"
+                android:elevation="5dp">
+
+                <ImageView
+                    android:id="@+id/img_add_terminal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/biruputih"
+                    android:scaleType="centerCrop"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/txt_add_nama_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Nama Terminal"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:inputType="textCapWords"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_alamat_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Alamat"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textCapWords"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_kecamatan_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/biruputih"
+                android:elevation="5dp"
+                android:hint="Kecamatan"
+                android:inputType="textCapWords"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:id="@+id/txt_add_lat_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Latitude"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="phone"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_long_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Longitude"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="phone"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_akap_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="AK - AP"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textCapCharacters"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_dalkot_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Dalam Kota"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textCapWords"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_jabodetabek_terminal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Jabodetabek"
+                android:layout_marginHorizontal="20dp"
+                android:background="@color/biruputih"
+                android:paddingHorizontal="10dp"
+                android:elevation="5dp"
+                android:layout_marginTop="10dp"
+                android:inputType="textCapWords"
+                />
+
+            <EditText
+                android:id="@+id/txt_add_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/biruputih"
+                android:elevation="5dp"
+                android:hint="Deskripsi"
+                android:inputType="textMultiLine"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="gravity"
+                android:gravity="top"
+                android:scrollbars="vertical"
+                android:scrollbarAlwaysDrawVerticalTrack="true"/>
+
+            <EditText
+                android:id="@+id/txt_add_trayek"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/biruputih"
+                android:elevation="5dp"
+                android:hint="Trayek"
+                android:inputType="textMultiLine"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="10dp"
+                android:textAlignment="gravity"
+                android:gravity="top"
+                android:scrollbars="vertical"
+                android:scrollbarAlwaysDrawVerticalTrack="true"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
